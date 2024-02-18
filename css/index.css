@@ -3,6 +3,7 @@ html, body, * {
     padding: 0;
     box-sizing: border-box;
 }
+@import url('typography.css');
 
 body {
     background-color: #39289F;

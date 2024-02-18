@@ -39,3 +39,18 @@
     color: white;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar, #menu {
+        flex-direction: column;
+    }
+    
+    #menu {
+        width: 100%;
+        align-items: center;
+    }
+
+    .item {
+        margin: 10px 0;
+    }
+}
