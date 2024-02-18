@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+#logo {
+    color: white;
+    font-size: 29px;
+    margin: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+#menu.item {
+    padding: 2px;
+}
+
+.item:hover {
+    background-color: #39289F;
+    color: wheat;
+    cursor: pointer;
+}
+
+#special-contact {
+    padding: 18px;
+    background: orange;
+    color: white;
+    border-radius: 20px;
+}
