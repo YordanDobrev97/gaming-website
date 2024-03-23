@@ -3,7 +3,9 @@ html, body, * {
     padding: 0;
     box-sizing: border-box;
 }
+@import url('variables.css');
 @import url('typography.css');
+@import url('navbar.css');
 
 body {
     background-color: #39289F;

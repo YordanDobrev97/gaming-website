@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/typography.css">
-    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PhK_mXgh_otNJAz1oapxsSUxEiiu84T9XtZbIG4WIg&s" />
-</head>
-<body>
-    <nav class="navbar">
-        <a id="logo" href="/">{{site.title}}</a>
-        <ul id="menu">
-            <li class="item">Home</li>
-            <li class="item">About</li>
-            <li class="item">Portfolio</li>
-            <li class="item">News</li>
-            <li id="special-contact" class="item">Contact us</li>
-        </ul>
-    </nav>
 
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PhK_mXgh_otNJAz1oapxsSUxEiiu84T9XtZbIG4WIg&s" />
+</head>
+
+<body>
+    {% include _navbar.html %}
+
+    {% include _header.html %}
 
 </body>
+
 </html>

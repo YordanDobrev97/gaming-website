@@ -1,0 +1,10 @@
+:root {
+    --initial-font: 12px/1.5 "Verdana", sans-serif;
+    --default-line-height: 1.2;
+    --font-size-h1: 4.441em;
+    --font-size-h2: 3.953em;
+    --font-size-h3: 2.563em;
+    --font-size-h4: 1.25em;
+    --font-size-h5: 1em;
+    --font-size-h6: 1em;
+}
