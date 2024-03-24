@@ -1,0 +1,53 @@
+
+#games {
+    margin: auto;
+    width: 75%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    color: white;
+    font-size: 28px;
+}
+
+.btn {
+    background: #6152c3;
+    border: none;
+    width: 15%;
+    font-size: 25px;
+    padding: 8px 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+.cards {
+    margin: 40px auto;
+    display: flex;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.bottom {
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
